@@ -1,0 +1,27 @@
+html {
+    font-family: sans-serif;
+  }
+  
+  /* Your CSS below here */
+  p{
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+
+
+    color: yellow;
+    font-size: 2em;
+    text-shadow: 2px 2px 2px black;
+
+    background: linear-gradient(to bottom right, rgb(0 0 0), rgb(35, 77, 153), rgb(46, 103, 122) 100%);
+
+    border: 1px solid cornflowerblue;
+    border-radius: 5px;
+    box-shadow: inset 2.5px 2.5px 2px rgb(255, 255, 255, 1),
+    inset -2.5px -2.5px 4px rgb(0,0,0,1),
+    -0.5px -0.5px 5px rgb(0,0,0,1),
+    2px 2px 10px rgb(0,0,0,1);
+
+}
