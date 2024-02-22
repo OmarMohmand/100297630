@@ -1,0 +1,146 @@
+/* General setup */
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+@font-face {
+  font-family: "BLACKCHA";
+  src: url(fonts/BLKCHCRY.TTF);
+  font-style: normal;
+  font-weight: 100;
+  font-size: 10px;
+}
+
+@font-face {
+  font-family: "Clip";
+  src: url(fonts/Clip.ttf);
+  font-style: normal;
+  font-weight: 95;
+  font-size: 10px;
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url(fonts/Oswald-Regular.ttf);
+  font-style: normal;
+  font-weight: 95;
+  font-size: 10px;
+}
+
+@font-face {
+  font-family: "Boogaloo";
+  src: url(fonts/Boogaloo-Regular.ttf);
+  font-style: normal;
+  font-weight: 95;
+  font-size: 10px;
+}
+
+@font-face {
+  font-family: "Typographytimes";
+  src: url(fonts/Typography\ times.ttf);
+  font-style: normal;
+  font-weight: 100;
+  font-size: 10px;
+}
+
+h1{
+font-family: "BLACKCHA";
+text-align: center;
+}
+
+h2{
+  font-family: "Typographytimes";
+  letter-spacing: 6px;
+  }
+
+p{
+  font-family: "Oswald";
+  font-style: oblique;
+
+}
+
+  li{
+    font-family: "Boogaloo";
+    
+    }
+
+    a[href*="http"] {
+      padding-right: 20px;
+      background: url(images/external-link-52.png) no-repeat 100%;
+      background-size: 15px 15px;
+    }
+
+          a {
+        color: #a66;
+      }
+      
+      a:focus, a:hover {
+        text-decoration: none;
+      }
+      nav li {
+list-style-type: none;
+margin-bottom: 20px;
+
+      }
+
+      nav li a{
+
+
+        display: inline-block;
+        width: 100%;
+        line-height: normal;
+        text-align: center;
+        font-size: 30px;
+        border: 1px solid #a66;
+      }
+
+      nav li a:focus, nav li a:hover {
+        color: white;
+        background: #a66;
+      }
+
+      section  p {
+        text-indent: 20px;
+      }
